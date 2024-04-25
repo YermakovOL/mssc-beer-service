@@ -51,7 +51,7 @@ class BeerControllerTest {
 
         given(beerService.saveNewBeer(any())).willReturn(getValidBeerDto());
 
-        mockMvc.perform(post("/api/v1/beer/")
+        mockMvc.perform(post("/api/v1/beer")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(beerDtoJson))
                 .andExpect(status().isCreated());
