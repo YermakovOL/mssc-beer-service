@@ -21,6 +21,7 @@ public class BeerOrderValidationListener {
         BeerOrderDto beerOrderDto = request.getBeerOrderDto();
         Boolean isValid = beerOrderValidator.validateOrder(beerOrderDto);
         UUID orderId = beerOrderDto.getId();
-        jmsTemplate.convertAndSend(JmsConfig.VALIDATE_ORDER_RESULT_QUEUE, new ValidateOrderResult(orderId,isValid));
+        jmsTemplate.convertAndSend(JmsConfig.VALIDATE_ORDER_RESPONSE_QUEUE, new ValidateOrderResult(orderId,isValid));
     }
 }
+
