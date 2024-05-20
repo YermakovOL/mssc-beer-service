@@ -11,5 +11,8 @@ Learn more about my courses below!
 | Service Name | Port | 
 | --------| -----|
 | Brewery Beer Service | 8080 |
-| [Brewery Beer Order Service](https://github.com/springframeworkguru/mssc-beer-order-service) | 8081 |
-| [Brewery Beer Inventory Service](https://github.com/springframeworkguru/mssc-beer-inventory-service) | 8082 |
+| [Brewery Beer Order Service](https://github.com/YermakovOL/mssc-beer-order-service) | 8081 |
+| [Brewery Beer Inventory Service](https://github.com/YermakovOL/mssc-beer-inventory-service) | 8082 |
+| [Brewery Config Server](https://github.com/YermakovOL/mssc-config-server) | 8088 |
+| [Brewery Gateway](https://github.com/YermakovOL/mssc-brewery-gateway) | 9090 |
+| [Brewery Inventory Failover](https://github.com/YermakovOL/mssc-inventory-failover) | 8083 |
